@@ -1,0 +1,10 @@
+.news {
+	color: red;
+}
+
+@media (max-width: 700px) {
+	.news {
+		background-color:blueviolet;
+		color: yellow;
+	}
+}

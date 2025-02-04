@@ -1,0 +1,9 @@
+.title {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+
+	@include ph {
+		text-align: center;
+	}
+}

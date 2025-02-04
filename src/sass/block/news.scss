@@ -1,0 +1,10 @@
+.news {
+	color: white;
+
+	@include ph {
+		background-color:blueviolet;
+		color: #ff7b00;
+	}
+	
+}
+

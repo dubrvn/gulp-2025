@@ -1,0 +1,16 @@
+body {
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+
+@media (max-width: 700px) {
+	body {
+		background-color: black;
+		color: white;
+	}
+}
+
+@import "block/news.css";
+@import "block/title.css";

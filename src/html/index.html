@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet", href="/css/main.min.css">
+	<script src="/js/main.js"></script>
+</head>
+<body>
+
+	@@include("chunk/header.html")
+	<ul>
+		<li> gulp run — запустить сборку</li>
+		<li> ctrl + C — остановить сборку, выйти из режима наблюдения</li>
+	</ul>
+
+	<p>Команды для вызова задач по отдельности:</p>
+	<ul>
+		<li>gulp html — Обработать html файлы</li>
+		<li>gulp sсss — Обработать scss файлы </li>
+		<li>gulp css — Обработать css файлы (Можно подключить вместо scss)</li>
+		<li>gulp js — Обработать js файлы </li>
+		<li>gulp img — Ужать изображения, подготовить webp версию</li>
+		<li>gulp font — Перевести шрифты в форматы woff, woff2</li>
+	</ul>
+
+	@@loop("chunk/news-item.html", "../../data/news.json")
+
+
+	@@include("chunk/footer.html")
+</body>
+</html>
