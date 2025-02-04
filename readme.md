@@ -20,29 +20,3 @@ CLI version: 3.0.0 Local version: 5.0.0
 * ```gulp img``` — подготовить изображения
 * ```gulp font``` — подготовить шрифты
 
-## Файловая структура
-/data
-/gulpfile.js
-	/config
-		path.js
-	/task
-		clear.js
-		css.js
-		font.js
-		html.js
-		img.js
-		js.js
-		scss.js
-	index.js
-/src
-	/css
-	/font		
-	/html
-	/img
-	/js
-	/sass
-.gitignore
-package-lock.js
-package.json
-readme.md
-
